@@ -1,0 +1,113 @@
+/* * { border: 1px dashed red; min-height: 10px; } */
+
+body {
+    background-color: black;
+}
+
+.post {
+    display: block;
+    /* justify-content: center;
+    align-items: center; */
+    margin: auto;
+    width: 450px;
+    height: 670px;
+    background-color: white;
+}
+
+div.post-header{
+    display: flex;
+}
+
+.usuario {
+    margin-top: 4px;
+}
+
+div.points {
+    display: flex;
+    margin-left: 250px;
+    margin-top: 6px;
+    width: 45px;
+    height: 45px;
+
+}
+
+.post-header {
+    display: block;
+    width: 450px;
+    height: 60px;
+}
+
+div.logoins {
+    margin: 3px;
+    
+}
+
+.logoins {
+    display: flex;
+    justify-content: left;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+h2 {
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+}
+
+div.imagen {
+    max-width: 450px;
+    max-height: 450px;
+    background-color: rgba(153, 153, 153, 0.627);
+}
+
+img {
+    max-width: 450px;
+    max-height: 450px;
+}
+
+div.icon {
+    display: flex;
+    max-width: 450px;
+    max-height: 33px;
+}
+
+div.heart {
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+}
+
+div.coment {
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+}
+
+div.send {
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+}
+
+div.save {
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    margin-left: auto
+}
+
+.liked {
+    display: flex;
+    align-items: center;
+    max-width: 450px;
+    max-height: 20px;
+    margin: 10px 3px 10px 3px;
+}
+
+.comments {
+margin: 0px 3px 0px 3px;
+}
